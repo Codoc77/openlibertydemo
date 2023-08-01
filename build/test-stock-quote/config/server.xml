@@ -16,8 +16,8 @@
         <feature>microProfile-2.2</feature>
         <feature>appSecurity-2.0</feature>
         <feature>monitor-1.0</feature>
-<!--    <feature>ldapRegistry-3.0</feature>      -->
-<!--    <feature>logstashCollector-1.0</feature> -->
+        <feature>ldapRegistry-3.0</feature>
+        <feature>logstashCollector-1.0</feature>
     </featureManager>
 
     <logging traceSpecification="*=info" consoleLogLevel="INFO" consoleSource="message,ffdc" consoleFormat="json" />
