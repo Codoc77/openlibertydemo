@@ -54,13 +54,13 @@
         <user>admin</user>
     </administrator-role>
 
-    <!-- Define an LDAP configuration for BluePages. -->
+    <!-- Define an LDAP configuration for BluePages.
     <ldapRegistry ldapType="IBM Tivoli Directory Server" host="bluepages.ibm.com" port="389" baseDN="o=ibm.com" realm="BluePages">
         <idsFilters userFilter="(&amp;(emailAddress=%v)(objectclass=person))"
             groupFilter="(&amp;(cn=%v)(|(objectclass=groupOfNames)(objectclass=groupOfUniqueNames)(objectclass=groupOfURLs)))"/>
     </ldapRegistry> -->
 
-    <ltpa expiration="1h"/>
+    <ltpa expiration="1h"/> -->
 
     <webAppSecurity allowFailOverToBasicAuth="true" displayAuthenticationRealm="true" logoutOnHttpSessionExpire="true"
         webAlwaysLogin="true" preserveFullyQualifiedReferrerUrl="true" trackLoggedOutSSOCookies="true" ssoCookieName="StockTraderSSO"
