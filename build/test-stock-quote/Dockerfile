@@ -1,6 +1,5 @@
 #ARG IMAGE=openliberty/open-liberty:kernel-slim-ubi
-ARG IMAGE=icr.io/appcafe/open-liberty:kernel-slim-ubi
-FROM ${IMAGE}
+ARG IMAGE=icr.io/appcafe/open-liberty:kernel-slim-java11-openj9-ubi
 
 ARG VERBOSE=false
 
